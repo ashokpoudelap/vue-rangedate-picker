@@ -171,6 +171,10 @@ export default {
     righttoleft: {
       type: String,
       default: 'false'
+    },
+    placeholder: {
+      type: String,
+      default: '-'
     }
   },
   data () {

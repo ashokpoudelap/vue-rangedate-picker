@@ -17,7 +17,7 @@ new window.Vue({
   template: `<div id="demo">
 <div>
 <strong>Full form</strong>
-<vue-rangedate-picker></vue-rangedate-picker>
+<vue-rangedate-picker :placeholder="'Something'"></vue-rangedate-picker>
 </div>
 <div style="height: 300px">
 <strong>Compact (mobile)</strong>
